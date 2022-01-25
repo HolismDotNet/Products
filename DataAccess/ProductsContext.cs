@@ -8,6 +8,8 @@ public class ProductsContext : DatabaseContext
 
     public DbSet<Products.Brand> Brands { get; set; }
 
+    public DbSet<Products.Image> Images { get; set; }
+
     public DbSet<Products.ProductAttribute> ProductAttributes { get; set; }
 
     public DbSet<Products.Product> Products { get; set; }
