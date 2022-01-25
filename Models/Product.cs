@@ -11,7 +11,7 @@ public class Product : IEntity
 
     public string Title { get; set; }
 
-    public long BrandId { get; set; }
+    public long? BrandId { get; set; }
 
     public dynamic RelatedItems { get; set; }
 }

@@ -17,7 +17,8 @@
                     "name": "Title"
                 },
                 {
-                    "name": "BrandId"
+                    "name": "BrandId",
+                    "isNullable": true
                 }
             ]
         },
