@@ -18,14 +18,6 @@ public class Repository
         }
     }
 
-    public static Repository<Products.Image> Image
-    {
-        get
-        {
-            return new Repository<Products.Image>(new ProductsContext());
-        }
-    }
-
     public static Repository<Products.ProductAttribute> ProductAttribute
     {
         get

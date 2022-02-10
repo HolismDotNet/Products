@@ -84,18 +84,6 @@
                     "name": "Value"
                 }
             ]
-        },
-        {
-            "name": "Images",
-            "hasFileGuid": true,
-            "columns": [
-                {
-                    "name": "ProductId"
-                },
-                {
-                    "name": "FileGuid"
-                }
-            ]
         }
     ]
 }
