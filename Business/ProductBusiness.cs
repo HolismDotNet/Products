@@ -2,7 +2,7 @@ namespace Products;
 
 public class ProductBusiness : Business<Product, Product>
 {
-    protected override ReadRepository<Product> ReadRepository => Repository.Product;
+    protected override Read<Product> Read => Repository.Product;
 
-    protected override Repository<Product> WriteRepository => Repository.Product;
+    protected override Write<Product> Write => Repository.Product;
 }

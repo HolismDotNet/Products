@@ -2,35 +2,35 @@ namespace Products;
 
 public class Repository
 {
-    public static Repository<Products.Attribute> Attribute
+    public static Write<Products.Attribute> Attribute
     {
         get
         {
-            return new Repository<Products.Attribute>(new ProductsContext());
+            return new Write<Products.Attribute>(new ProductsContext());
         }
     }
 
-    public static Repository<Products.Brand> Brand
+    public static Write<Products.Brand> Brand
     {
         get
         {
-            return new Repository<Products.Brand>(new ProductsContext());
+            return new Write<Products.Brand>(new ProductsContext());
         }
     }
 
-    public static Repository<Products.ProductAttribute> ProductAttribute
+    public static Write<Products.ProductAttribute> ProductAttribute
     {
         get
         {
-            return new Repository<Products.ProductAttribute>(new ProductsContext());
+            return new Write<Products.ProductAttribute>(new ProductsContext());
         }
     }
 
-    public static Repository<Products.Product> Product
+    public static Write<Products.Product> Product
     {
         get
         {
-            return new Repository<Products.Product>(new ProductsContext());
+            return new Write<Products.Product>(new ProductsContext());
         }
     }
 }
